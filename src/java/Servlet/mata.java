@@ -24,7 +24,7 @@ public class mata extends HttpServlet
             session.setAttribute("logado", false);
         }
         
-        response.sendRedirect("index.html");
+        response.sendRedirect("index.jsp");
     }
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
     /**

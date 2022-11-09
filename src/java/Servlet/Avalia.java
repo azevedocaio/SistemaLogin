@@ -62,7 +62,7 @@ public class Avalia extends HttpServlet
         if (logado) {
             response.sendRedirect("menu.html");
         } else {
-            response.sendRedirect("index.html");
+            response.sendRedirect("index.jsp");
         }
     }
 

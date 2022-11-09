@@ -1,3 +1,10 @@
+<%-- 
+    Document   : index
+    Created on : 09/11/2022, 21:23:09
+    Author     : Caio Azevedo
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 
 <html>
