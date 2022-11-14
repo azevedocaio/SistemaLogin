@@ -26,6 +26,14 @@
 
                 <input type = "submit" value = "Enviar">
             </form>
+            
+            <%
+                if (session.getAttribute("msg") != null) {
+            %>
+            <h3><%= session.getAttribute("msg")%></h3>
+            <% 
+                }
+            %>
         </center>
     </body>
 </html>

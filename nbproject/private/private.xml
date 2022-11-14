@@ -5,9 +5,11 @@
         <group>
             <file>file:/C:/Users/Caio%20Azevedo/Documents/UFJF/Banco/src/java/Servlet/mata.java</file>
             <file>file:/C:/Users/Caio%20Azevedo/Documents/UFJF/Banco/web/menu.html</file>
-            <file>file:/C:/Users/Caio%20Azevedo/Documents/UFJF/Banco/web/welcome.html</file>
+            <file>file:/C:/Users/Caio%20Azevedo/Documents/UFJF/Banco/web/WEB-INF/web.xml</file>
+            <file>file:/C:/Users/Caio%20Azevedo/Documents/UFJF/Banco/web/index.jsp</file>
             <file>file:/C:/Users/Caio%20Azevedo/Documents/UFJF/Banco/src/java/Servlet/Avalia.java</file>
-            <file>file:/C:/Users/Caio%20Azevedo/Documents/UFJF/Banco/web/index.html</file>
+            <file>file:/C:/Users/Caio%20Azevedo/Documents/UFJF/Banco/web/HelloUser.jsp</file>
+            <file>file:/C:/Users/Caio%20Azevedo/Documents/UFJF/Banco/src/java/Servlet/ErroJava.java</file>
         </group>
     </open-files>
 </project-private>
