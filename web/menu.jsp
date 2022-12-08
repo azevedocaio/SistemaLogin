@@ -1,8 +1,7 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@page import="Servlet.contador"%>
 <!DOCTYPE html>
-<!--
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
--->
+
 <html>
     <head>
         <title>TODO supply a title</title>
@@ -13,7 +12,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
         <center>
             <h1>Menu:</h1>
             <a href="HelloUser.jsp">
-                <button>Welcome</button>
+                <button class="btn btn-primary btn-block">Welcome</button>
             </a>
             
             <br><br>
@@ -33,7 +32,19 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
             <form method="post" action = "mata">
                 <input type = "submit" value = "Sair">
             </form>
+
+            <br>
+            <br>
+            <br>
+            
+            <div>
+                <h3>
+                    Usuários logados: <%=contador.getCount()%>
+                </h3>
+            </div>
+            
             
         </center>
     </body>
 </html>
+
