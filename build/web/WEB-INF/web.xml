@@ -36,6 +36,10 @@
         <servlet-name>mata</servlet-name>
         <servlet-class>Servlet.mata</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>Rotator</servlet-name>
+        <servlet-class>Controlador.Rotator</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Avalia</servlet-name>
         <url-pattern>/Avalia</url-pattern>
@@ -55,6 +59,10 @@
     <servlet-mapping>
         <servlet-name>mata</servlet-name>
         <url-pattern>/mata</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Rotator</servlet-name>
+        <url-pattern>/Rotator</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

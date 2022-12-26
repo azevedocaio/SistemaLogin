@@ -2,22 +2,32 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <link rel="stylesheet" href="C:\Users\Caio Azevedo\Documents\UFJF\Banco\bootstrap-5.2.3-dist\css\bootstrap.min">
+        <link rel="stylesheet" type="text/css" href="css_menu.css">
     </head>
-    <meta/>
+ 
     <body>
         <center>
-            <h1>
-            <%=
-                new java.util.Date()
-            %>
-            </h1>
+            <div class="container-fluid">
+                <div class="row justify-content-center mt-5">
+                    <section class="col-12 colsm-6 col-md-4">
+                    <div class="menuteste">
+                        <h1>
+                            <%=
+                                new java.util.Date()
+                            %>
+                        </h1>
          
-            <form method="post" action = "Avalia">
-                <input type = "submit" value="Voltar">
-            </form>
-                   
+                        <form method="post" action = "Avalia">
+                            <input type = "submit" class="btn btn-primary btn-block" value="Voltar">
+                        </form>
+                    </div>
+                </div>
+            </div>  
         </center>
     </body>
 </html>

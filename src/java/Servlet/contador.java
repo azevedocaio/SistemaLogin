@@ -12,25 +12,29 @@ import javax.servlet.http.HttpSessionListener;
  * @author Caio Azevedo
  */
 
-public class contador implements HttpSessionListener{
-
+public class contador implements HttpSessionListener
+{
    private static int count;
 
-    public contador() {
+    public contador() 
+    {
         count =0;
     }
    
    @Override
-    public void sessionCreated(HttpSessionEvent event) {
-     count++;
+    public void sessionCreated(HttpSessionEvent event) 
+    {
+        count++;
     }
 
    @Override
-    public void sessionDestroyed(HttpSessionEvent event) {
-             count--;
+    public void sessionDestroyed(HttpSessionEvent event) 
+    {
+        count--;
     }
 
-    public static int getCount() {
+    public static int getCount() 
+    {
         return count;
     }
 }
